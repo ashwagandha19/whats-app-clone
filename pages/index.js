@@ -1,0 +1,15 @@
+import Head from 'next/head';
+import Sidebar from '/components/Sidebar.js';
+
+export default function Home() {
+  return (
+    <div>
+      <Head>
+        <title>WhatsApp Clone</title>
+        <link rel="icon" href=""/>
+      </Head>
+
+      <Sidebar/>
+    </div>
+  )
+}
